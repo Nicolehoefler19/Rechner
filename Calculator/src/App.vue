@@ -1,19 +1,10 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Calculator from './components/Calculator.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
   <main>
-    <TheWelcome />
+    <Calculator />
   </main>
 </template>
 
@@ -28,9 +19,6 @@ import TheWelcome from './components/TheWelcome.vue'
   font-weight: normal;
 }
 
-header {
-  line-height: 1.5;
-}
 
 .logo {
   display: block;
